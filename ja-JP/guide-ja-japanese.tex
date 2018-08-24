@@ -245,7 +245,7 @@ multiple teams along a single path.
 これら2つの管轄を隔てうえで、Scrum@Scaleは、2つのサイクルを含んでいる:
 スクラムマスターサイクル(``どのように'')、およびプロダクトオーナーサイクル
 (``何を'')、それぞれ、2ポイントで他に触れる。
-一緒に取られて、これらのサイクルは、単一のパスに沿って複数のチームの努力を
+一緒に取られて、これらのサイクルは、一直線に複数のチームの努力を
 調整するための強力な枠組を作り出す。
 
 \if0
@@ -657,11 +657,16 @@ their PO functions. These teams of PO's and key stakeholders are known as
 \subsection{Outputs/Outcomes of the Scrum Master Cycle}
 \fi
 \subsection{スクラムマスターサイクルの出力と成果}
+\if0
 The SM organization (SoS, SoSoS, and EAT) work as a whole to complete the
 other components of the Scrum Master Cycle: \textbf{Continuous Improvement
 and Impediment Removal, Cross-Team Coordination, and Deployment}.
 
 The goals of Continuous Improvement and Impediment Removal are to:
+\fi
+SM組織(SoS、SoSoS、およびEAT)は、スクラムマスターサイクルの他のコンポーネント、すなわち\textbf{継続的カイゼンと障害物の除去、チーム横断的な調整、および開発}を完了するために全体として機能する。
+
+継続的カイゼンと障害物除去の目的は以下のとおり:
 \if0
 \begin{itemize}
 \item identify impediments and reframe them as opportunities.
@@ -675,8 +680,8 @@ removing impediments, and then verifying the resulting improvements.
 \item 障害物の優先順位付けと除去のための健全かつ構造化された環境を維持する。また、その結果として得られる改善を検証する
 \item 効果的な変更のための組織における可視性を確保する
 \end{itemize}
-The goals of Cross-Team Coordination are to:
 \if0
+The goals of Cross-Team Coordination are to:
 \begin{itemize}
 \item coordinate similar processes across multiple related teams.
 \item mitigate cross-team dependencies to ensure they don't become
@@ -684,23 +689,26 @@ impediments.
 \item maintain alignment of team norms and guidelines for consistent output.
 \end{itemize}
 \fi
+チーム横断的調整の目的は以下のとおり:
 \begin{itemize}
 \item 関連する複数のチーム間の同様のプロセスを調整する
 \item チーム間のチーム横断的な依存関係を緩和し障害物とならないようにする
 \item 一貫性のある出力のために、チームの規範とガイドラインの整合性を維持する
 \end{itemize}
 
+\if0
 Since the goal of the SoS is to function as a release team, the deployment
 of product falls under their scope, while what is contained in any release
 falls under the scope of the Product Owners. Therefore, the goals of the
 Deployment are to:
-\if0
 \begin{itemize}
 \item deliver a consistent flow of valuable finished product to customers.
 \item integrate the work of different teams into one seamless product.
 \item ensure high quality of the customer experience.
 \end{itemize}
 \fi
+SoSの目的はリリースチームとして機能することであり、プロダクトのデプロイメントはであり、何がリリースに含まれているかはプロダクトオーナーの範疇である。
+したがって、(SoSの)デプロイメントの目的は次のとおり:
 \begin{itemize}
 \item 価値ある完成品の一貫した流れを顧客に届ける
 \item 異なるチームの作業をシームレスな一つの製品に統合する
@@ -713,8 +721,6 @@ Deployment are to:
 \section{プロダクトオーナーサイクル}
 \if0
 \subsection{Coordinating the ``What'' - The MetaScrum}
-\fi
-\subsection{``何を''を調整する - メタスクラム}
 A group of Product Owners who need to coordinate a shared backlog that
 feeds a network of teams are themselves a team called a \textbf{MetaScrum}.
 For each SoS there is an associated MetaScrum. A MetaScrum aligns the
@@ -725,6 +731,14 @@ of the team backlog and may pull backlog from the shared metascrum backlog
 into the team backlog or generate independent backlog at his or her descretion.
 
 MetaScrums hold a scaled version of Backlog Refinement, the \textbf{Scaled Backlog Refinement Meeting} 
+\fi
+\subsection{``何を''を調整する - メタスクラム}
+チームネットワークへのフィードバックとして共有バックログを調整する必要のあるプロダクトオーナーのグループ、それ自体が\textbf{メタスクラム}と呼ばれるチームである。
+SoS毎に対応するメタスクラムがある。
+メタスクラムは、チームの優先順位を一直線に調整しつつ、チームのバックログを調整し、ステークホルダーがバックログをサポートできるように連携を構築する。
+ある1チームのプロダクトオーナーは、自チームのバックログの構成と優先順位付けの責務があり、共有メタスクラムバックログから自チームのバックログにバックログを引き出したり、自身の裁量で独自のバックログを生成したりする。
+
+メタスクラムには、スケール化されたバックログリファインメントがある、\textbf{スケール化バックログリファインメントミーティング}である。
 \if0
 \begin{itemize}
 \item Each team PO (or proxy) must attend
@@ -736,11 +750,11 @@ Customers to express their preferences
 \item 各チームのPO(または代理人)の出席は必須
 \item このイベントは、リーダーシップ、ステークホルダーのための会である。または、顧客が自身の意見を表現する
 \end{itemize}
+\if0
 This event occurs as often as needed, at least once per Sprint, to ensure a
 Ready backlog. 
 
 The main functions of the MetaScrum are to:
-\if0
 \begin{itemize}
 \item create an overarching vision for the product \& make it visible to
 the organization.
@@ -755,6 +769,9 @@ the SoS.
 \item decide upon and monitor metrics that give insight into the product.
 \end{itemize}
 \fi
+このイベントは、バックログを準備完了にするため、スプリントごとに少なくとも1回、必要に応じて頻繁に行う。
+
+メタスクラムの主たる機能はは以下のとおり:
 \begin{itemize}
 \item 製品の全体像を可視化し、組織に見えるようにする
 \item バックログの実装の安全なサポートを確保するために主要なステークホルダーとの連携を構築する
@@ -764,23 +781,28 @@ the SoS.
 \item 調整されたリリースプランを生成する
 \item 製品への洞察力を与えるメトリクスを決定し監視する
 \end{itemize}
+\if0
 MetaScrums, just like SoS's, function as Scrum teams on their own. As such,
 they need to have someone who acts as a SM and keeps the team on track in
 discussions. They also need a single person who is responsible for coordinating the
 generation of a single Product Backlog for all of the teams covered by the
 MetaScrum. This person is designated as the \textbf{Chief Product Owner}.
 
-\if0
 \subsection{The Chief Product Owner (CPO)}
 \fi
+SoSのように、メタスクラムは自立したスクラムチームとして機能します。
+したがって、チーム内の議論を順調に進めさせれ、SMとして振る舞うことのできる誰かが必要となる。
+また、メタスクラムがカバーするすべてのチームのための唯一のプロダクトバックログ生成を調整する責務を負う、たった一人の人物が必要である。
+この人物は、\textbf{チーフプロダクトオーナー}に指定される。
+
 \subsection{チーフプロダクトオーナー (CPO)}
+\if0
 Through the MetaScrums, Chief Product Owners coordinate priorities among
 Product Owners who work with individual teams. They align backlog
 priorities with Stakeholder and Customer needs. Just like a SoSM, they may
 be an individual team PO who chooses to play this role as well, or they may
 be a person specifically dedicated to this role. Their main
 responsibilities are the same as a regular PO's, but at scale:
-\if0
 \begin{itemize}
 \item Setting a strategic vision for the whole product.
 \item Creating a single, prioritized backlog of value to be delivered by
@@ -794,6 +816,10 @@ that the MetaScrum team generates can be deployed efficiently.
 accordingly.
 \end{itemize}
 \fi
+チーフプロダクトオーナーは、メタスクラムを通じて、個々のチームで働くプロダクトオーナー間の優先順位を調整する。
+ステークホルダーおよび顧客ニーズに合わせ、バックログの優先順位を調整する。
+SoSMのように、この役割を果たすことを選択した個別チームのPOである場合もあれば、この役割に特化した個人の場合もある。
+彼らの主な責務は通常のPOと同じである。しかしスケール化では:
 \begin{itemize}
 \item 製品全体の戦略的ビジョンを設定する
 \item 全チームに配布する、価値により優先順位付けされた唯一のバックログを作成する
