@@ -77,8 +77,8 @@ Scrum team functions across the organization.
 Scrum@Scaleは、組織戦略の全体を最適化する方法として、チームの新しいエコシ
 ステムを効率的に調整するために作成された。
 これは、単一スクラムチームを、組織で機能横断的に自然に拡張するというスケー
-ルフリーなアーキテクチャにより、``最小で実行可能な官僚制''の実現という
-ゴールを達成するものである。
+ルフリーなアーキテクチャにより、``最小で実行可能な官僚制''の導入を通じて
+目的を達成するものである。
 
 \if0
 This guide contains the definitions of the components that make up the
@@ -97,11 +97,11 @@ experienced Scrum practitioners based on the results of their field work.
 The goal of this guide is for the reader to be able to implement Scrum@Scale
 on their own.
 \fi
-ジェフ・サザランド博士は、スクラムの背後にある原則、複雑な適応システム理論、
+ジェフ・サザーランド博士は、スクラムの背後にある原則、複雑な適応システム理論、
 ゲーム理論、オブジェクト指向技術に基づきScrum@Scaleを開発した。
 このガイドは、多くの経験豊かなスクラムの実践者のフィールドワークの結果に基づい
 て開発されている。
-このガイドは、読者が、自分自身でScrum@Scaleを実践できることをゴールにしている。
+このガイドは、読者が自分自身でScrum@Scaleを実践できることを目的としている。
 
 \if0
 \subsection{Why Scrum@Scale?}
@@ -117,13 +117,13 @@ obvious that a framework for effectively coordinating those teams was
 needed in order to achieve linear scalability. Scrum@Scale is designed to
 accomplish this goal via its scale-free architecture.
 \fi
-スクラムは、単一のチームが、持続可能なペースを維持する間その最適な能力で働く
+スクラムは、単一のチームが持続可能なペースを維持し、その最適な能力で働く
 ことができるようにデザインされている。
 現場では、組織内のスクラムチーム数の増加に伴いアウトプット(プロダクト)とベロ
 シティの低下が見受けられる(冗長な作業やチーム横断依存のような問題のため)。
 リニアなスケーラビリティを得るためには、複数のチームを効果的に調整するための
-フレームワークが必要性が明白である。
-Scrum@Scaleは、スケールフリーアーキテクチャでゴールを達成するためにデザイン
+フレームワークが必要であることが明白である。
+Scrum@Scaleは、スケールフリーアーキテクチャで目的を達成するためにデザイン
 されている。
 
 \if0
@@ -133,11 +133,11 @@ it can grow organically based on its unique needs and at a sustainable pace
 of change that can be accepted by the groups of individuals that make up
 the organization. The simplicity of the Scrum@Scale model is essential to a scale-free architecture and carefully avoids introducing extra complexity that will cause productivity per team to decrease as more teams are created.
 \fi
-スケールフリーのアーキテクチャを利用することによって、組織は成長するための特定
+スケールフリーアーキテクチャを利用することによって、組織は成長するための特定
 の方法に任意の規則のセットの決定や方法を強制されない。
 むしろ、それは、そのユニークなニーズ、および組織を作る個人のグループにより受け
 入れられうる変化の持続可能なペースに有機的に基づくかもしれない。
-Scrum@Scaleモデルのシンプルさはスケールフリーのアーキテクチャに必須で、チーム
+Scrum@Scaleモデルのシンプルさはスケールフリーアーキテクチャに必須で、チーム
 あたり生産性を、より多くのチームが作成されると減少させる特別な複雑さを導入する
 ことを慎重に避ける。
 
@@ -145,8 +145,8 @@ Scrum@Scaleモデルのシンプルさはスケールフリーのアーキテク
 Scrum@Scale is designed to scale across the organization as a whole: all
 departments, products and services. It can be applied across multiple
 domains in all types of organizations in industry, government, or academia.
-Scrum@Scaleは、すべての部門、プロダクト、およびサービスといった、組織全体を横断的に
 \fi
+Scrum@Scaleは、すべての部門、プロダクト、およびサービスといった、組織全体を横断的に
 スケールするようにデザインされている。
 それは、産業、政府、または学界の組織のすべてのタイプの複数定義域を横断的に適
 用できる。
@@ -160,33 +160,33 @@ Scrum: A framework within which people can address complex adaptive
 problems, while productively and creatively delivering viable products of the
 highest possible value.
 \fi
-スクラム: 現実的で高い価値を持つプロダクトを、生産的に創造的にデリバリする間人々が
-複雑な問題に順応的に対処できるフレームワーク。
+スクラム: 現実的で高価値のプロダクトを生産性と創造性をもってデリバリするため、
+複雑な問題への順応的対処に取り組むことができるフレームワーク。
 
 \if0
 The Scrum Guide is the minimal feature set that allows inspection and
 adaptability via radical transparency to drive innovation, customer satisfaction, performance, and
 team happiness.
 \fi
-スクラムガイドは、根本的な透明度を経た検査と適応性が革新、顧客満足、性能、
-およびチーム幸福を動かすことを可能にする最小の機能セットである。
+スクラムガイドは、根本的な透明性をもった検査と適応性が、革新、顧客満足、性能、
+およびチーム幸福を駆動するという、最小のフィーチャーセットである。
 
 \if0
 Scrum@Scale: A framework within which networks of Scrum teams operating
 consistently with the Scrum Guide can address complex adaptive problems,
 while creatively delivering products of the highest possible value.
-Scrum@Scale: 現実的で高い価値を持つプロダクトを創造的に提供する間、
 \fi
-スクラムガイドによって一貫して動作しているスクラムチームのネットワークが複雑
-な順応的な問題に対処できるフレームワーク。
+Scrum@Scale: 現実的で高価値のプロダクトを創造的にデリバリするため、
+複雑な問題への順応的対処に取り組むことができるスクラムガイドとともに、
+複数スクラムチームが一貫して機能するネットワーク内のフレームワーク。
 
 \if0
 \textbf{NOTE:} These ``products'' may be hardware, software, complex
 integrated systems, processes, services, etc., depending upon the domain of
 the Scrum teams.
 \fi
-\textbf{注意:} これら ``プロダクト'' は、スクラムチームによって、ハードウェア、
-ソフトウェア、複雑な統合されたシステム、プロセス、サービスなどであるかもしれない。
+\textbf{注意:} これら ``プロダクト'' は、スクラムチームのドメインに応じて、ハードウェア、
+ソフトウェア、複雑に統合されたシステム、プロセス、サービスなどであるかもしれない。
 
 \if0
 Scrum@Scale is:
@@ -210,7 +210,7 @@ scaling by using Scrum to scale Scrum.
 \fi
 Scrum@Scaleは、スクラムをスケールするためのフレームワークである。
 それは、スクラムをスケールするために、スクラムを使用してスケールすることを
-根本的に簡素化する。
+抜本的に簡素化する。
 
 \if0
 In Scrum, care is taken to separate accountability of the ``what'' from the
@@ -219,9 +219,9 @@ accountability are expressly understood in order to eliminate wasteful
 organizational conflict that keep teams from achieving their optimal
 productivity.
 \fi
-スクラムでは、``どのように''からの``何を'' の責任の分離するために気をつける。
-チームが、それらの最適な生産性を達成することを防ぐ無駄な組織的な衝突を取り
-除くために、司法権と責任が明確に理解されるように、Scrum@Scaleに同じに気をつける。
+スクラムでは、``How''と``What'' の責任の分離に注意する必要がある。
+Scrum@Scaleでも同様に、チームの最適な生産性を達成を邪魔する、無駄な
+組織上の衝突を取り除くために、権限と責務を明確に理解し、注意する必要がある。
 
 \if0
 Scrum@Scale consists of components that allow an organization to
@@ -229,11 +229,10 @@ customize their transformational strategy and implementation. It gives them
 the ability to target their incrementally prioritized change efforts in the area(s) they deem
 most valuable or most in need of change and then progress on to others.
 \fi
-Scrum@Scaleは、組織がそれらの変形の戦略とインプリメンテーションをカスタマイズ
+Scrum@Scaleは、組織変革の戦略とインプリメンテーションをカスタマイズ
 することを可能にするコンポーネントから成る。
-変化と、進歩の必要において彼らが他に最も考えている 最も貴重なまたは
-エリア（s）でのそれらのますます優先度を付けられた変化努力をターゲットとする
-ことは、彼らに能力を与える。
+それらは、彼らが最も重要であると判断した領域、または変更の必要性が最も高い領域で
+段階的に優先順位を付けた変更の取り組みを目標とし、順次進んでいく能力を与える。
 
 \if0
 In separating these two jurisdictions, Scrum@Scale contains two cycles: the
@@ -242,11 +241,11 @@ Scrum Master Cycle (the ``how'') and the Product Owner Cycle (the
 cycles produce a powerful framework for coordinating the efforts of
 multiple teams along a single path.
 \fi
-これら2つの管轄を隔てうえで、Scrum@Scaleは、2つのサイクルを含んでいる:
-スクラムマスターサイクル(``どのように'')、およびプロダクトオーナーサイクル
-(``何を'')、それぞれ、2ポイントで他に触れる。
-一緒に取られて、これらのサイクルは、一直線に複数のチームの努力を
-調整するための強力な枠組を作り出す。
+これら2つの権限を分離されており、Scrum@Scaleは、2つのサイクルを含んでいる:
+スクラムマスターサイクル(``How'')、およびプロダクトオーナーサイクル
+(``What'')であり、2つポイントで接触する。
+まとめると、これらのサイクルは、一直線上に複数のチームの取り組みを調整するための
+強力なフレームワークを作り出す。
 
 \if0
 \subsection{The Components of the Scrum@Scale\textregistered ~Framework}
@@ -267,11 +266,11 @@ Openness, Courage, Focus, Respect, and Commitment. These values drive
 empirical decision making, which depend on the three pillars of
 transparency, inspection, and adaptation.
 \fi
-``何を'' および``どのように''の責任の分離以外では、Scrum@Scaleにおいて、
-経験の設定において価値駆動の文化を醸成して健康な組織を築くことがより一層
-重要である。スクラムにおける価値とは次のようなものがある:開放性、勇気、
-集中、敬意、コミットメント。これらの価値によって、経験の意思決定を駆動する。
-それは、透明性、検査、および適応の3つの柱に依存する。
+``What'' および``How''の責務の分離以外では、Scrum@Scaleは、
+実証的な環境で価値駆動文化を創り出すことで、健全な組織を構築することを
+さらなる目的としている。スクラムにおける価値とは次のようなものがある: 
+オープン性、勇気、集中、敬意、コミットメント。これらの価値が、経験的意思決定を促進する。
+それは、透明性、検査、および適応の3つの柱により成り立っている。
 
 \if0
 Openness supports transparency into all of the work and processes, without
@@ -279,9 +278,9 @@ which there is no ability to inspect them honestly and attempt to adapt
 them for the better. Courage refers to taking the bold leaps required to
 deliver value quicker in innovative ways.
 \fi
-開放性は、それらを正直に検査し、それらをさらによいものに適応させることを
-試みる能力が全然ない仕事とプロセスのうちのすべてに透明度をサポートする。
-勇気は、革新的な方法でより迅速な価値を配達するために必要な大胆な飛躍を取る
+オープン性は、すべての作業とプロセスへの透明性を保証する。
+さもなくば誠実な検査と、より良いものに適合していくことはできない。
+勇気は、革新的な方法で、より迅速な価値をデリバリするために必要な、大胆な飛躍する
 ことを示す。
 
 \if0
@@ -290,10 +289,10 @@ putting customer value delivery as the highest priority. Lastly, all of
 this must occur in an environment based on respect for the individuals
 doing the work, without whom nothing can be created.
 \fi
-集中とコミットメントは、私達が私達の職務を処理する方法を示し、顧客へ価値を
-届けることを最も高いプライオリティとする。
-最後に、これらすべては、他にだれも成しえないことを行っている、作業者個人
-個人への深い敬意に基づいた環境に生まれるにちがいない。
+集中とコミットメントは、自分たちで自分たちの責務を全うする方法を見つけることを示し、
+顧客へ価値を届けることを最優先とするということである。
+最後に、これらすべては、他のだれも成しえないことを行っている作業者個人
+個人へのリスペクトに支えられた環境なくしては成しえない。
 
 \if0
 Scrum@Scale helps organizations thrive by supporting a
@@ -301,9 +300,9 @@ transformational leadership model which fosters a positive environment for
 working at a sustainable pace and putting commitment to deliver
 customer-facing value at the forefront of our efforts.
 \fi
-Scrum@Scaleは、組織が、持続可能なペースで、顧客直面価値を私達の努力の最前線
-に提供するという制約を作動させて、置くためのポジティブな環境を養育する変形
-のリーダーシップモデルをサポートして繁栄することを手助けする。
+Scrum@Scaleは、持続可能なペースで働くための積極的な環境を育て、
+努力の最前線で顧客が直面する価値を届けるというコミットメントをもたらす、
+変革リーダーシップモデルをサポートすることによって、組織の成長を支援する。
 
 \if0
 \subsection{Getting Started with Scrum@Scale}
@@ -318,11 +317,10 @@ policies and procedures or development practices that block high performance and
 teams. 
 \fi
 大きなチームネットワークを構築する際は、小さなチームのセットのためのスケー
-ラブルな\textbf{参照モデル}を開発することは重要である。
-複数のチームが配備される時には、スクラムインプリメンテーションのどのような
-欠点にも対してでも拡張されるだろう。
-初期のスケーリング問題の多くは、組織方針と手続きや、ハイパフォーマンスを
-阻む開発プラクティスとチームの不満である。
+ラブルな\textbf{リファレンスモデル}を開発することが重要である。
+複数のチームが展開されている場合、スクラム実装の弱点は拡大されるであろう。
+初期のスケーリング問題の多くは、組織の方針や手続き、
+またはハイパフォーマンスを阻む開発プラクティスとチームの不満である。
 
 \if0
 Therefore, the first challenge is to create a small set of teams that
@@ -339,7 +337,7 @@ Scrum across the organization.
 作成することである。
 これは、\textbf{エグゼクティブ・アクション・チーム(EAT)}による作成が最善の達成方法である。
 エグゼクティブ・アクション・チーム(EAT)は、変革戦略の策定と実行の責務があるためだ。
-EATは、リファレンスモデルの存続を保証するために政治的、財政的に権限を与えられた個人で
+EATは、リファレンスモデルの存続を保証するために政治的、財政的に権限を与えられた個々人で
 構成されなければならない。チームのこのセットは、アジリティを阻害する組織的な問題を
 通じて働き、組織横断的なスクラムをスケールするためのパターンとして使われうる
 リファレンスモデルを作成する。
@@ -350,7 +348,7 @@ that delay delivery, produce waste, or impede business agility become
 apparent. The most effective way to eliminate these problems is to spread
 Scrum across the organization so that the entire value stream is optimized.
 \fi
-チームのリファレンスモデルが加速すると、デリバリを遅延のもととなる障害物や
+チームのリファレンスモデルが揃ってくると、デリバリの遅延のもととなる障害物や
 ボトルネック、ムダ、ビジネスのアジリティを妨げが見えるようになる。
 これらの問題を取り除くための最も効果的な方法は、全体の価値ストリームが最適
 化されるように組織横断的にスクラムを広げることである。
@@ -366,11 +364,9 @@ Scrum@Scaleは、組織へのスクラムの浸透により、リニアな生産
 
 \if0
 \section{Scrum Master Cycle}
-\fi
-\section{スクラムマスターサイクル}
-\if0
 \subsection{Team-Level Process}
 \fi
+\section{スクラムマスターサイクル}
 \subsection{チームレベルプロセス}
 \if0
 The \textbf{Team-Level Process} constitutes the first touch point between the Scrum Master and Product Owner Cycles, and is laid out clearly in the Scrum Guide. It
@@ -395,7 +391,7 @@ the team level process are to:
 \if0
 \subsection{Coordinating the ``How'' - The Scrum of Scrums}
 \fi
-\subsection{``どのように'' を調整する - スクラムオブスクラム}
+\subsection{``How'' を調整する - スクラムオブスクラム}
 \if0
 A set of the teams that need to coordinate in order to deliver value to customers comprise a \textbf{``Scrum of Scrums'' (SoS)}. This team is itelf a Scrum Team, which is responsible for a fully integrated set of potentially shippable increments of product at the end of every Sprint from all participating teams. A SoS functions as a Release Team and must be able to directly deliver value to customers. To do so effectively, it needs to be consistent with the Scrum Guide; that is, have its own roles, artifacts, and events:
 \fi
@@ -732,7 +728,7 @@ into the team backlog or generate independent backlog at his or her discretion.
 
 MetaScrums hold a scaled version of Backlog Refinement, the \textbf{Scaled Backlog Refinement Meeting} 
 \fi
-\subsection{``何を''を調整する - メタスクラム}
+\subsection{``What''を調整する - メタスクラム}
 チームネットワークへのフィードバックとして共有バックログを調整する必要のあるプロダクトオーナーのグループ、それ自体が\textbf{メタスクラム}と呼ばれるチームである。
 SoS毎に対応するメタスクラムがある。
 メタスクラムは、チームの優先順位を一直線に調整しつつ、チームのバックログを調整し、ステークホルダーがバックログをサポートできるように連携を構築する。
